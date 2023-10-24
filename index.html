@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>amamam</h1>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>K & E</title>
+
+    <link rel="shortcut icon" href="img/cicin.png" type="image/x-icon"> 
+</head>
+<body>
+    <body>
+      
+        <video id="background-video" autoplay loop muted>
+            <source src="background-vidio/mylivewallpapers.com-Day-at-the-Beach-4K.mp4" type="video/mp4"> 
+        </video>
+
+        <div class="login-container">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+<div class="login-container">
+    <form onsubmit="return validateForm();" action="javascript:void(0);">
+        <h2>Selamat Datang</h2>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <button type="submit">Login</button>
+    </form>
+
+    <script>
+        const audio = document.getElementById('myAudio');
+        const loginButton = document.getElementById('loginButton');
+        
+        loginButton.addEventListener('click', function() {
+            audio.play();
+        });
+        </script>
+</div>
+<script src="index.js"></script>
+    </body>
+</body>
 </html>
